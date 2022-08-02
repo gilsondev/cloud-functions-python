@@ -26,6 +26,7 @@ Esse arquivo é necessário para o Cloud Functions reconhecer as dependências d
 Para que possa efetuar o envio do _codebase_ para o Cloud Functions, é necessário seguir alguns passos:
 
 - Possuir um projeto habilitado no GCP
-- [Ativar as APIs](https://cloud.google.com/functions/quickstart&_ga=2.59100077.188439082.1658754150-2100695172.1658149097) do recurso do Cloud Functions
+- [Ativar as APIs](https://cloud.google.com/functions/quickstart&_ga=2.59100077.188439082.1658754150-2100695172.1658149097) do recurso do Cloud Functions e Google Cloud Storage
+- Criar um bucket dedicado ao upload das imagens
 - Instalar e inicializar o [Google Cloud Platform SDK](https://cloud.google.com/sdk/docs)
 - Executar o comando `make deploy`
