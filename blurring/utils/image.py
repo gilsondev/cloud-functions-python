@@ -24,5 +24,5 @@ def blur_image(blob: storage.Blob | None, filename: str) -> str | None:
     return local_temp_filename
 
 
-def remove_tmp_image(filename):
-    return os.remove(filename)
+def remove_tmp_image(filename: str) -> None:
+    os.remove(filename)
